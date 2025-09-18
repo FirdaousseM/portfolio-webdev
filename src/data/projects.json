@@ -1,0 +1,51 @@
+{
+    "projects": [
+        {
+            "title": "Instamint",
+            "sublink": "/instamint",
+            "description": "Réseau social incluant la gestion de nft.",
+            "stack": [
+                "sveltekit",
+                "nodejs",
+                "mysql"
+            ]
+        },
+        {
+            "title": "LSF AI",
+            "link": "/lsf-ai",
+            "description": "Application d'apprentissage de la Langue des Signes Française.",
+            "stack": [
+                "javascript",
+                "nodejs",
+                "mysql"
+            ]
+        },
+        {
+            "title": "Flashcard",
+            "link": "/flashcard",
+            "description": "Application de révision utilisant des flashcard.",
+            "stack": [
+                "svelte"
+            ]
+        },
+        {
+            "title": "Forum",
+            "link": "/forum",
+            "description": "Littéralement un forum fait avec Symfony.",
+            "stack": [
+                "symfony",
+                "mongodb"
+            ]
+        },
+        {
+            "title": "ColSolution",
+            "link": "/colsolution",
+            "description": "Site d'annonces de colocation.",
+            "stack": [
+                "javascript",
+                "php",
+                "mysql"
+            ]
+        }
+    ]
+}

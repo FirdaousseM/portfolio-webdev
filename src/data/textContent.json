@@ -1,0 +1,47 @@
+{
+    "english": {
+        "title": {
+            "heading": "Firdaousse, Fullstack Developer",
+            "subheading": "Look at my projects, contact me"
+        },
+        "contact": {
+            "heading": "Contact"
+        }
+    },
+    "french": {
+        "title": {
+            "heading": "Firdaousse Moussa",
+            "subheading": "Développeur Fullstack"
+        },
+        "projects": {
+            "heading": "Mes projets"
+        },
+        "contact": {
+            "heading": "Contact",
+            "title": "Contactez moi",
+            "description": "Un projet ? Une idée ? N'hésitez pas !",
+            "name": {
+                "label": "Nom",
+                "placeholder": "Votre nom"
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": "exemple@mail.com"
+            },
+            "phone": {
+                "label": "Téléphone",
+                "placeholder": "01 23 45 67 89"
+            },
+            "message": {
+                "label": "Message",
+                "placeholder": "Votre Message"
+            },
+            "submit": "Envoyer"
+        },
+        "nav": {
+            "home": "Accueil",
+            "portfolio": "Projects",
+            "contact": "Contact"
+        }
+    }
+}
