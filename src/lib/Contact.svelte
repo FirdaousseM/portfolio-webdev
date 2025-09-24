@@ -16,7 +16,7 @@
   </div>
 
   <form
-    class="contact-form"
+    class="contact-form mb-24"
     action="https://api.web3forms.com/submit"
     method="POST"
   >
@@ -55,18 +55,6 @@
         />
       </div>
       <div class="form-group">
-        <label for="phone" class="form-label"
-          >{textContent.contact.phone.label}</label
-        >
-        <input
-          id="phone"
-          name="phone"
-          class="form-input"
-          placeholder={textContent.contact.phone.placeholder}
-          type="text"
-        />
-      </div>
-      <div class="form-group">
         <label for="message" class="form-label"
           >{textContent.contact.message.label} <span> *</span></label
         >
@@ -80,7 +68,7 @@
       </div>
     </div>
     <input type="hidden" name="redirect" value={websiteURL} />
-    <button class="form-submit bg-secondary" type="submit"
+    <button class="form-submit bg-primary" type="submit"
       >{textContent.contact.submit}</button
     >
   </form>
@@ -94,7 +82,7 @@
     margin-right: auto;
     padding: 3rem 1rem;
   }
-  
+
   .contact-intro > * + * {
     margin-top: 1rem;
   }

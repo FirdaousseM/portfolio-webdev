@@ -11,7 +11,7 @@
         <p class="overflow-ellipsis">{project.description}</p>
         <div class="flex gap-2">
             {#each project.stack as techno}
-                <span class="bg-primary rounded-4xl px-3 py-1">
+                <span class="bg-secondary rounded-4xl px-3 py-1">
                     {techno}
                 </span>
             {/each}
